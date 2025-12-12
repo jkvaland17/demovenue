@@ -464,10 +464,10 @@ const Sidebar: React.FC<SidebarProps> = ({ show, onSidebarToggle }) => {
         </button>
 
         <div className="main-logo">
-          <Image src={LOGO} alt="Logo" width={50} height={50} />
+          {/* <Image src={LOGO} alt="Logo" width={50} height={50} /> */}
           <h6 className="logo_text">
             {" "}
-            Uttar Pradesh Police Recruitment & Promotion Board
+            Demo
           </h6>
         </div>
 
