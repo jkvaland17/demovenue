@@ -1,0 +1,527 @@
+[
+  {
+    "districtCode": "1",
+    "district": "Saharanpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "2",
+    "district": "Muzaffarnagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "3",
+    "district": "Bijnor",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "4",
+    "district": "Moradabad",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "5",
+    "district": "Rampur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "6",
+    "district": "Amroha",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "7",
+    "district": "Meerut",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "8",
+    "district": "Baghpat",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "9",
+    "district": "Ghaziabad",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "10",
+    "district": "Gautam Buddha Nagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "11",
+    "district": "Bulandshahr",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "12",
+    "district": "Aligarh",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "13",
+    "district": "Mahamaya Nagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "14",
+    "district": "Mathura",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "15",
+    "district": "Agra",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "16",
+    "district": "Firozabad",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "17",
+    "district": "Etah",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "18",
+    "district": "Mainpuri",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "19",
+    "district": "Budaun",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "20",
+    "district": "Bareilly",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "21",
+    "district": "Pilibhit",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "22",
+    "district": "Shahjahanpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "23",
+    "district": "Lakhimpur Kheri",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "24",
+    "district": "Sitapur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "25",
+    "district": "Hardoi",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "26",
+    "district": "Unnao",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "27",
+    "district": "Lucknow",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "28",
+    "district": "Rae Bareli",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "29",
+    "district": "Farrukhabad",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "30",
+    "district": "Kannauj",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "31",
+    "district": "Etawah",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "32",
+    "district": "Auraiya",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "33",
+    "district": "Kanpur Dehat",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "34",
+    "district": "Kanpur Nagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "35",
+    "district": "Jalaun",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "36",
+    "district": "Jhansi",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "37",
+    "district": "Lalitpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "38",
+    "district": "Hamirpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "39",
+    "district": "Mahoba",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "40",
+    "district": "Banda",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "41",
+    "district": "Chitrakoot",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "42",
+    "district": "Fatehpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "43",
+    "district": "Pratapgarh",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "44",
+    "district": "Kaushambi",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "45",
+    "district": "Allahabad",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "46",
+    "district": "Barabanki",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "47",
+    "district": "Faizabad",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "48",
+    "district": "Ambedkar Nagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "49",
+    "district": "Sultanpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "50",
+    "district": "Bahraich",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "51",
+    "district": "Shrawasti",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "52",
+    "district": "Balrampur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "53",
+    "district": "Gonda",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "54",
+    "district": "Siddharth Nagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "55",
+    "district": "Basti",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "56",
+    "district": "Sant Kabir Nagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "57",
+    "district": "Maharajganj",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "58",
+    "district": "Gorakhpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "59",
+    "district": "Kushinagar",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "60",
+    "district": "Deoria",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "61",
+    "district": "Azamgarh",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "62",
+    "district": "Mau",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "63",
+    "district": "Ballia",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "64",
+    "district": "Jaunpur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "65",
+    "district": "Ghazipur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "66",
+    "district": "Chandauli",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "67",
+    "district": "Varanasi",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "68",
+    "district": "Sant Ravi Das Nagar(bhadohi)",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "69",
+    "district": "Mirzapur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "70",
+    "district": "Sonbhadra",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "71",
+    "district": "Kasganj",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "72",
+    "district": "Amethi",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "73",
+    "district": "Hapur",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "74",
+    "district": "Shamli",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  },
+  {
+    "districtCode": "75",
+    "district": "Sambhal",
+    "matched": 0,
+    "unmatched": 0,
+    "pending": 0
+  }
+]

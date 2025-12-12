@@ -1,0 +1,160 @@
+[
+  {
+    "title": "Physical Measure Details",
+    "data": [
+      {
+        "id": 1,
+        "title": "Height (CMS)",
+        "key": "responseData.physicalDetails.height",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Weight (KGs)",
+        "key": "responseData.physicalDetails.weight",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Chest (CMS) without expansion",
+        "key": "responseData.physicalDetails.chestWithoutExpansion",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Chest (CMS) with expansion",
+        "key": "responseData.physicalDetails.chestWithExpansion",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "Calculation of Chest expansion",
+        "key": "responseData.physicalDetails.chestExpansion",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "Fitness Status",
+        "key": "responseData.physicalDetails.fitnessStatus",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "Verification Status in PST (FIT/UNFIT)",
+    "data": [
+      {
+        "id": 1,
+        "title": "Verification Status in PST (FIT/UNFIT)",
+        "key": "responseData.pstStatus",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "Candidate has given objection of PST result in proforma (YES/NO)",
+    "data": [
+      {
+        "id": 1,
+        "title": "Candidate has given objection of PST result in proforma (YES/NO)",
+        "key": "responseData.hasPstObjection",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "Physical Measurement Details (only in case of re-measurement)",
+    "data": [
+      {
+        "id": 1,
+        "title": "Height (CMS)",
+        "key": "responseData.reMeasurement.height",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Weight (KGs)",
+        "key": "responseData.reMeasurement.weight",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Chest (CMS) without expansion",
+        "key": "responseData.reMeasurement.chestWithoutExpansion",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Chest (CMS) with expansion",
+        "key": "responseData.reMeasurement.chestWithExpansion",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "Calculation of Chest expansion",
+        "key": "responseData.reMeasurement.chestExpansion",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "Fitness Status",
+        "key": "responseData.reMeasurement.fitnessStatus",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "Verification Status in PST (FIT/UNFIT)",
+        "key": "responseData.reMeasurement.pstStatus",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 8,
+        "title": "Signature of DV/PST Board Members",
+        "key": "responseData.reMeasurement.boardMemberSignature",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      },
+      {
+        "id": 9,
+        "title": "Signature of Appeal Officer",
+        "key": "responseData.reMeasurement.appealOfficerSignature",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      }
+    ]
+  }
+]

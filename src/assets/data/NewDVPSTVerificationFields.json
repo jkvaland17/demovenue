@@ -1,0 +1,667 @@
+[
+  {
+    "title": "Identity Documents पहचान दस्तावेज़",
+    "key": "Identity Documents",
+    "data": [
+      {
+        "id": 1,
+        "title": "Photographs",
+        "key": "documetData.photograph",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "photograph"
+      },
+      {
+        "id": 2,
+        "title": "Signatures",
+        "key": "documetData.signature",
+        "status": "Invalid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "signature"
+      },
+      {
+        "id": 3,
+        "title": "Thumbprint",
+        "key": "documetData.thumbprint",
+        "status": "Invalid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "thumbprint"
+      }
+    ]
+  },
+  {
+    "title": "Personal Details व्यक्तिगत विवरण",
+    "key": "Personal Details",
+    "data": [
+      {
+        "id": 2,
+        "title": "Reference number",
+        "key": "responseData.personalDetails.refrenceNumber",
+        "status": "Invalid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Applicant Full name",
+        "key": "responseData.personalDetails.fullName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Gender",
+        "key": "responseData.personalDetails.gender",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "malefemale"
+      },
+      {
+        "id": 5,
+        "title": "Date of Birth",
+        "key": "responseData.personalDetails.dateOfBirth",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 6,
+        "title": "Father’s name",
+        "key": "responseData.personalDetails.fatherName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "Mother’s name",
+        "key": "responseData.personalDetails.motherName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 8,
+        "title": "Marital status",
+        "key": "responseData.personalDetails.maritalStatus",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "meritalstatus"
+      },
+      {
+        "id": 9,
+        "title": "Email",
+        "key": "responseData.personalDetails.email",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 10,
+        "title": "Mobile number",
+        "key": "responseData.personalDetails.mobileNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "mobile"
+      },
+      {
+        "id": 11,
+        "title": "Aadhaar number",
+        "key": "responseData.personalDocuments.aadhaarNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 12,
+        "title": "Passport number",
+        "key": "",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 13,
+        "title": "Driving License number",
+        "key": "responseData.personalDetails.drivingLicenseNumber",
+        "status": "Invalid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "Address Details पता विवरण",
+    "key": "Address Details",
+    "data": [
+      {
+        "id": 1,
+        "title": "Nationality",
+        "key": "responseData.addressDetails.nationality",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Present address line 1",
+        "key": "responseData.addressDetails.presentAddress.addressLine",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Present address line 2",
+        "key": "responseData.addressDetails.presentAddress.addressLineTwo",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Present address line 3",
+        "key": "responseData.addressDetails.presentAddress.addressLineThree",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "Present address pin code",
+        "key": "responseData.addressDetails.presentAddress.pinCode",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "Present address state",
+        "key": "responseData.addressDetails.presentAddress.state",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "Present address district",
+        "key": "responseData.addressDetails.presentAddress.district",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 8,
+        "title": "Permanent address line 1",
+        "key": "responseData.addressDetails.permanentAddress.addressLine",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 9,
+        "title": "Permanent address line 2",
+        "key": "responseData.addressDetails.permanentAddress.addressLineTwo",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 10,
+        "title": "Permanent address line 3",
+        "key": "responseData.addressDetails.permanentAddress.addressLineThree",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 11,
+        "title": "Permanent address pin code",
+        "key": "responseData.addressDetails.permanentAddress.pinCode",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 12,
+        "title": "Permanent address state",
+        "key": "responseData.addressDetails.permanentAddress.state",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 13,
+        "title": "Permanent address district",
+        "key": "responseData.addressDetails.permanentAddress.district",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "Educational details of 10th / SSLC",
+    "key": "High School/10th",
+    "data": [
+      {
+        "id": 1,
+        "title": "10th / SSLC - Name of Board",
+        "key": "responseData.tenthQualificationDetails.institutionName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "10th / SSLC - Subject",
+        "key": "responseData.tenthQualificationDetails.subjects",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "array"
+      },
+      {
+        "id": 3,
+        "title": "10th / SSLC - Month & Year of Passing",
+        "key": "responseData.tenthQualificationDetails.yearOfPassing",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Marks in percentage / CGPA",
+        "key": "responseData.tenthQualificationDetails.percentage",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "10th / SSLC - Roll Number",
+        "key": "responseData.tenthQualificationDetails.rollNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "10th / SSLC - Certificate Serial Number",
+        "key": "responseData.tenthQualificationDetails.certificateNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "10th / High School / Other Equivalent Mark-Sheet Certificate",
+        "key": "responseData.tenthQualificationDetails.certificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      }
+    ]
+  },
+  {
+    "title": "Educational details of 12th / HSC / Equivalent",
+    "key": "Intermediate/12th",
+    "data": [
+      {
+        "id": 1,
+        "title": "12th / HSC - Name of Board",
+        "key": "responseData.intermediateQualificationDetails.institutionName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "12th / HSC - Subjects",
+        "key": "responseData.intermediateQualificationDetails.subjects",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "12th / HSC - Month & Year of Passing",
+        "key": "responseData.intermediateQualificationDetails.yearOfPassing",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Marks in percentage/ CGPA",
+        "key": "responseData.intermediateQualificationDetails.percentage",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "12th / HSC - Roll Number",
+        "key": "responseData.intermediateQualificationDetails.rollNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "12th / HSC - Certificate Serial Number ",
+        "key": "responseData.intermediateQualificationDetails.certificateNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "12th / Intermediate / Other Equivalent Mark-Sheet Certificate",
+        "key": "responseData.intermediateQualificationDetails.certificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      }
+    ]
+  },
+  {
+    "title": "Other Preferential Qualifications",
+    "key": "Preferential Qualifications",
+    "data": [
+      {
+        "id": 1,
+        "title": "Have you obtained \"O\" level certificate in Computer from DOEACC or NIELIT Society",
+        "key": "responseData.preferentialQualificationDetails.hasOLevelComputerCertificate",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Have you served in the Territorial Army for a minimum period of two years?",
+        "key": "responseData.preferentialQualificationDetails.hasTerritorialArmyExperience",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Have you obtained a 'B' certificate of National Cadet Corps",
+        "key": "responseData.preferentialQualificationDetails.hasNccBCertificate",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "Other Details/अन्य विवरण",
+    "key": "Other Details",
+    "data": [
+      {
+        "id": 1,
+        "title": "Category",
+        "key": "responseData.otherDetails.reservationCategory",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "category"
+      },
+      {
+        "id": 2,
+        "title": "Category Certificate Issuing Date",
+        "key": "responseData.otherDetails.dateOfIssuingReservationCategoryCertificate",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 3,
+        "title": "Category Certificate File",
+        "key": "responseData.otherDetails.reservationCategoryCertificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      },
+      {
+        "id": 4,
+        "title": "Are you Domicile of UP? (Yes/No)",
+        "key": "responseData.otherDetails.domicile",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "yesNo"
+      },
+      {
+        "id": 5,
+        "title": "Domicile Certificate Issue Date",
+        "key": "responseData.otherDetails.dateOfIssuingDomicileCertificate",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 6,
+        "title": "Domicile Certificate Serial Number",
+        "key": "responseData.otherDetails.domicileCertificateSerialNumber",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "Category Certificate Issuing Authority",
+        "key": "responseData.otherDetails.nameOfReservationCategoryIssuingAuthorityUP",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 8,
+        "title": "Category Certificate Serial Number",
+        "key": "responseData.otherDetails.reservationCategoryCertificateSerialNumber",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 9,
+        "title": "Dependent of Freedom Fighter? (Yes/No)",
+        "key": "responseData.otherDetails.freedomFighter",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "yesNo"
+      },
+      {
+        "id": 10,
+        "title": "DFF Certificate Issuing Authority",
+        "key": "responseData.otherDetails.dffIssuingAuthority",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 11,
+        "title": "DFF Certificate Issue Date",
+        "key": "responseData.otherDetails.dffCertificateIssueDate",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 12,
+        "title": "DFF Certificate Serial Number",
+        "key": "responseData.otherDetails.dffCertificateNumber",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 13,
+        "title": "Are you a UP Government Employee? (Yes/No)",
+        "key": "responseData.otherDetails.upEmployee",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "yesNo"
+      },
+      {
+        "id": 14,
+        "title": "UP Govt. Employee NOC (Attached)",
+        "key": "responseData.otherDetails.upNocCertificate",
+        "status": "",
+        "remark": "",
+        "value": "document",
+        "dataType": "document"
+      },
+      {
+        "id": 15,
+        "title": "Date of Joining Govt. Service",
+        "key": "responseData.otherDetails.dateOfJoining",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 16,
+        "title": "Duration of Service",
+        "key": "responseData.otherDetails.serviceDuration",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 17,
+        "title": "NOC/Permission Letter Date",
+        "key": "responseData.otherDetails.dateOfNoc",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 18,
+        "title": "NOC/Permission Letter Issuing Authority",
+        "key": "responseData.otherDetails.nocAuthorityName",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 19,
+        "title": "Ex-Serviceman (Yes/No)",
+        "key": "responseData.otherDetails.exServiceMan",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "yesNo"
+      },
+      {
+        "id": 20,
+        "title": "Homeguards (Yes/No)",
+        "key": "responseData.otherDetails.homeGuard",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "yesNo"
+      },
+      {
+        "id": 21,
+        "title": "Homeguards Certificate Issuing Authority",
+        "key": "responseData.otherDetails.homeGuardIssuingAuthority",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 22,
+        "title": "Homeguards Certificate Issue Date",
+        "key": "responseData.otherDetails.homeGuardIssueDate",
+        "status": "",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 23,
+        "title": "Homeguards Certificate Serial Number",
+        "key": "responseData.otherDetails.homeGuardCertificateNumber",
+        "status": "",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 24,
+        "title": "Domicile Certificate (Attached)",
+        "key": "responseData.otherDetails.domicileCertificateFile",
+        "status": "",
+        "remark": "",
+        "value": "document",
+        "dataType": "document"
+      }
+    ]
+  },
+  {
+    "title": "All Documents सभी दस्तावेज़",
+    "key": "All Documents",
+    "data": [
+      {
+        "id": 1,
+        "title": "10th / High School / Other Equivalent Mark-Sheet Certificate",
+        "key": "responseData.tenthQualificationDetails.certificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document",
+        "isVerify": "false"
+      },
+      {
+        "id": 2,
+        "title": "12th / Intermediate / Other Equivalent Mark-Sheet Certificate",
+        "key": "responseData.intermediateQualificationDetails.certificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document",
+        "isVerify": "false"
+      },
+      {
+        "id": 3,
+        "title": "Category Certificate File",
+        "key": "responseData.otherDetails.reservationCategoryCertificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document",
+        "isVerify": "false"
+      },
+      {
+        "id": 4,
+        "title": "Domicile Certificate (Attached)",
+        "key": "responseData.otherDetails.domicileCertificateFile",
+        "status": "",
+        "remark": "",
+        "value": "document",
+        "dataType": "document",
+        "isVerify": "false"
+      }
+    ]
+  }
+]

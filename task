@@ -1,0 +1,366 @@
+phone:- 7894561233
+8888822222
+pass:- 9999999999
+
+promotion/eligibilityForDPCPromotion :- List of eligibility
+
+promotion/seniorityForPromotionById :- Id get data id=:id
+
+
+import mongoose from 'mongoose';
+
+const annualConfidentialResolutionSchema = new mongoose.Schema({
+    year: {type: String},
+    fromYear: { type: Date }, // Selection from year
+    toYear: { type: Date }, // Selection to year
+    categoryOfConfidentialIntent: { type: String, required: true }, // Category
+    remarks: { type: String, default: '' }, // Validation remarks
+    unsatisfactoryAdverseRemarks: [{
+        hasRemarks: { type: Boolean, default: false }, // True if adverse remarks exist
+        dateOfIntimation: { type: Date, default: "" }, // Date of intimation
+        dateOfReceiptOfAppeal: { type: Date }, // Date of appeal
+        dateOfDisposalWithResult: { type: Date }, // Final result date
+    }],
+});
+
+const DcpPromotionSchema = new mongoose.Schema(
+    {
+        seniorityListSerialNo: { type: String, required: true, unique: true }, // unique required
+        eligibilityListSerialNo: { type: String },
+        cadre: { type: String, default: '' },
+        annualConfidentialResolution: [annualConfidentialResolutionSchema],
+        // Integrity Certificate (Last 5 years)
+        integrityRecords: [
+            {
+                certificate: { type: String, required: true },
+                // dateOfUncertifiedIntegrity: { type: Boolean, default: true },
+                dateOfIntimation: { type: Date, default: '' },
+                dateOfReceiptOfRepresentation: { type: Date, default: '' },
+                dateOfDisposalOfRepresentation: { type: Date, default: '' },
+            },
+        ],
+        user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+        // Major Penalty - Rule 14(1)
+        majorPenalties: [
+            {
+                orderNumber: { type: String },
+                dateOfPunishment: { type: Date },
+                dateOfIntimation: { type: Date },
+                natureOfPunishment: { type: String },
+            },
+        ],        
+        serialNumber: { type: Number },
+        // Major Penalty - Rule 14(1)
+        minorPenalties: [
+            {
+                orderNumber: { type: String },
+                dateOfPunishment: { type: Date },
+                dateOfIntimation: { type: Date },
+                natureOfPunishment: { type: String },
+            },
+        ],
+        // Post-Punishment Relief
+        postPunishmentRelief: [
+            {
+                details: { type: String, default: '' },
+                yearOfRelief: { type: String },
+            },
+        ],
+        // Current Suspension Details
+        suspensionStatus: [
+            {
+                // isSuspended: { type: Boolean, default: false },
+                orderNumber: { type: String, default: '' },
+                reasonOfSuspense: { type: String, default: '' },
+                orderNumberDate: { type: Date },
+                // reinstatementDate: { type: Date }
+            },
+        ],
+        // Pending Criminal Case Details
+        pendingCriminalCases: [
+            {
+                caseNumber: { type: String, required: true },
+                status: { type: String, enum: ['Pending', 'Closed'], default: 'Pending' },
+                chargeSheetFiled: { type: String, default: "" },
+                filingCourt: { type: String, default: '' },
+                chargeSheet: { type: String, default: '' },
+            },
+        ],
+        departmentalProceedings: [
+            {
+                rule: { type: String },
+                investigatingAgency: { type: String },
+                briefAllegations: { type: String },
+                dateOfChargeSheet: { type: Date },
+                orderDetails: { type: String },
+            },
+        ],
+        punishmentOrDisciplinaryActions: [
+            {
+                caseNumber: { type: String },
+                complaintYear: { type: Number },
+                disciplinaryActionDetails: { type: String },
+                description: { type: String },
+            },
+        ],
+
+        eligibilityListInclusion: {
+            type: String,
+        },
+        // serialNumber: { type: String },
+        recommendation: { type: String },
+        status: { type: String, enum: ['', 'FIT', 'UNFIT', 'SEAL_COVER', 'PROVISIONAL', 'STAY'], default: '' }, // Fit or Unfit
+
+        integrityCertificates: [
+            {
+                year: { type: Number },
+                status: { type: String, default: 'Verified' },
+            },
+        ],
+        districtUnit: { type: String, default: '' },
+        rangeDivision: { type: String, default: '' },
+        remarks: { type: String, default: '' },
+        secondRemarks: { type: String, default: '' },
+        dateOfAppointmentToSubstantivePost: { type: Date },
+        servicePeriod: [{ type: Object, default: {} }],
+        changedBy: [
+            { type: mongoose.Schema.Types.ObjectId, ref: "User" }
+        ],
+    },
+    { timestamps: true }
+);
+
+DcpPromotionSchema.set('toObject', { virtuals: true });
+DcpPromotionSchema.set('toJSON', { virtuals: true });
+
+// Create a virtual for population
+DcpPromotionSchema.virtual('seniorityPromotionList', {
+    ref: 'seniorityPromotion', // Model name
+    localField: 'seniorityListSerialNo', // Field in eligibilityPromotion
+    foreignField: 'seniorityListSerialNo', // Field in seniorityPromotion
+    // justOne: true, // Set to true if you expect only one document
+});
+
+export default mongoose.model('DcpPromotion', DcpPromotionSchema);
+
+{
+    "seniorityListSerialNo": "200",
+    "employeeName": "test",
+    "fatherName": "test",
+    "pnoNumber": "123",
+    "currentPosting": "head",
+    "dateOfBirth": "2019-01-01T00:10:00.000Z",
+    "recruitmentDate": "2019-01-01T00:10:00.000Z",
+    "promotionDate": "2019-01-01T00:10:00.000Z",
+    "cadre": "",
+    "annualConfidentialResolution": [
+        {
+            "year": "2019",
+            "fromYear": "2019-01-01T00:10:00.000Z",
+            "toYear": "2019-12-31T00:10:00.000Z",
+            "categoryOfConfidentialIntent": "सन्तोंषजनक",
+            "remarks": "",
+            "unsatisfactoryAdverseRemarks": [
+                {
+                    "hasRemarks": "",
+                    "dateOfIntimation": "",
+                    "dateOfReceiptOfAppeal": "",
+                    "dateOfDisposalWithResult": ""
+                }
+            ]
+        }
+    ],
+    "integrityRecords": [
+        {
+            "certificate": "प्रमाणित",
+            "dateOfIntimation": "",
+            "dateOfReceiptOfRepresentation": "",
+            "dateOfDisposalOfRepresentation": ""
+        }
+    ],
+    "majorPenalties": [
+        {
+            "orderNumber": "-",
+            "dateOfPunishment": null,
+            "dateOfIntimation": null,
+            "natureOfPunishment": ""
+        }
+    ],
+    "serialNumber": "1",
+    "minorPenalties": [
+        {
+            "orderNumber": "द-18/1997",
+            "dateOfPunishment": "1997-09-17T00:10:00.000Z",
+            "dateOfIntimation": "2097-09-25T00:10:00.000Z",
+            "natureOfPunishment": "परिनिन्दा"
+        }
+    ],
+    "postPunishmentRelief": [
+        {
+            "details": "",
+            "yearOfRelief": "2022"
+        }
+    ],
+    "suspensionStatus": [
+        {
+            "orderNumber": "-",
+            "reasonOfSuspense": "-",
+            "orderNumberDate": "-"
+        }
+    ],
+    "pendingCriminalCases": [
+        {
+            "caseNumber": "मु0अ0सं0-121/99 धारा-409 भादवि व 29 पुलिस अधिनियम थाना जनकपुरी जनपद सहारनपुर",
+            "status": "Pending",
+            "chargeSheetFiled": "true",
+            "chargeSheetWithDate": "आरोप पत्र संख्या-89/99 दिनांक 28.11.99",
+            "currentCaseStatus": "मा0 न्यायालय एसीजेएम द्वितीय सहारनपुर में बाद  संख्या-1777/20 हाजिरी में विचाराधीन है अग्रिम  तिथि दिनांक 08.07.2024 नियत है"
+        }
+    ],
+    "departmentalProceedings": [
+        {
+            "rule": "",
+            "investigatingAgency": "",
+            "briefAllegations": "",
+            "dateOfChargeSheet": "",
+            "orderDetails": ""
+        }
+    ],
+    "punishmentOrDisciplinaryActions": [
+        {
+            "caseNumber:": "",
+            "complaintYear:": "",
+            "disciplinaryActionDetails:": "",
+            "description:": ""
+        }
+    ],
+    "eligibilityListInclusion": "",
+    "recommendation": "",
+    "status": "",
+    "integrityCertificates": [
+        {
+            "year": "",
+            "status": ""
+        }
+    ],
+    "districtUnit": "",
+    "rangeDivision": "",
+    "remarks": "",
+    "secondRemarks": "",
+    "dateOfAppointmentToSubstantivePost": "",
+    "servicePeriod": {},
+    "unsatisfactoryAdverseRemarks": {
+        "hasRemarks": "",
+        "dateOfIntimation": "",
+        "dateOfReceiptOfAppeal": "",
+        "dateOfDisposalWithResult": ""
+    }
+}
+
+
+ const { register, handleSubmit, control, watch, setValue } = useForm({
+    defaultValues: {
+      seniorityListSerialNo: "",
+      eligibilityListSerialNo: "",
+      cadre: "",
+      annualConfidentialResolution: [
+        {
+          year: "2019",
+          fromYear: "2019-01-01T00:10:00.000Z",
+          toYear: "2019-12-31T00:10:00.000Z",
+          categoryOfConfidentialIntent: "सन्तोंषजनक",
+          remarks: "",
+          unsatisfactoryAdverseRemarks: [
+            {
+              dateOfIntimation: "",
+              dateOfReceiptOfAppeal: "",
+              dateOfDisposalWithResult: "",
+            },
+          ],
+        },
+      ],
+      integrityRecords: [
+        {
+          certificate: "प्रमाणित",
+          dateOfIntimation: "",
+          dateOfReceiptOfRepresentation: "",
+          dateOfDisposalOfRepresentation: "",
+        },
+      ],
+      majorPenalties: [
+        {
+          orderNumber: "-",
+          dateOfPunishment: null,
+          dateOfIntimation: null,
+          natureOfPunishment: "",
+        },
+      ],
+      serialNumber: "1",
+      minorPenalties: [
+        {
+          orderNumber: "द-18/1997",
+          dateOfPunishment: "1997-09-17T00:10:00.000Z",
+          dateOfIntimation: "2097-09-25T00:10:00.000Z",
+          natureOfPunishment: "परिनिन्दा",
+        },
+      ],
+      postPunishmentRelief: [
+        {
+          details: "",
+          yearOfRelief: "2022",
+        },
+      ],
+      suspensionStatus: [
+        {
+          orderNumber: "-",
+          reasonOfSuspense: "-",
+          orderNumberDate: "-",
+        },
+      ],
+      pendingCriminalCases: [
+        {
+          caseNumber:
+            "मु0अ0सं0-121/99 धारा-409 भादवि व 29 पुलिस अधिनियम थाना जनकपुरी जनपद सहारनपुर",
+          chargeSheetWithDate: "आरोप पत्र संख्या-89/99 दिनांक 28.11.99",
+          currentCaseStatus:
+            "मा0 न्यायालय एसीजेएम द्वितीय सहारनपुर में बाद  संख्या-1777/20 हाजिरी में विचाराधीन है अग्रिम  तिथि दिनांक 08.07.2024 नियत है",
+        },
+      ],
+      departmentalProceedings: [
+        {
+          investigatingAgency: "",
+          briefAllegations: "",
+          dateOfChargeSheet: "",
+        },
+      ],
+      punishmentOrDisciplinaryActions: [
+        {
+          caseNumber: "",
+          complaintYear: "",
+          disciplinaryActionDetails: "",
+          description: "",
+        },
+      ],
+      eligibilityListInclusion: "",
+      recommendation: "",
+      status: "", // dropdown '', 'FIT', 'UNFIT', 'SEAL_COVER', 'PROVISIONAL', 'STAY'
+      integrityCertificates: [
+        {
+          year: "",
+          status: "",
+        },
+      ],
+      districtUnit: "",
+      rangeDivision: "",
+      remarks: "",
+      dateOfAppointmentToSubstantivePost: "",
+      servicePeriod: {},
+      employeeName: "",
+      fatherName: "",
+      pnoNumber: "",
+      currentPosting: "",
+      dateOfBirth: "",
+      recruitmentDate: "",
+      promotionDate: "",
+    },
+  });

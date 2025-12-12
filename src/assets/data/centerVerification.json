@@ -1,0 +1,224 @@
+[
+  {
+    "title": "Name of school / Examination centre",
+    "key": "school_name",
+    "value": "AGRA COLLEGE MAIN CAMPUS BLOCK-0",
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Address of school / Examination centre",
+    "key": "school_address",
+    "value": "MG ROAD AGRA 2820021",
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "School / Examination centre photos",
+    "key": "school_photos",
+    "value": null,
+    "isVerified": null,
+    "subFields": [
+      {
+        "label": "School photos",
+        "value": "",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "title": "Principal Name",
+    "key": "principal_name",
+    "value": "demo6",
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Principal ID Proof",
+    "key": "principal_photo",
+    "value": null,
+    "isVerified": null,
+    "subFields": [
+      {
+        "label": "Principal id photo",
+        "value": "",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "title": "Principal's Mob. No.",
+    "key": "principal_mobile",
+    "value": 1234567897,
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Principal's Email id",
+    "key": "principal_email",
+    "value": "abc@abc.com",
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Grade of examination center (A,B) as per new mandate",
+    "key": "exam_center_grade",
+    "value": "B",
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "NO OF ROOMS (PHYSICAL)",
+    "key": "num_physical_rooms",
+    "value": 10,
+    "isVerified": false,
+    "subFields": [
+      {
+        "label": "Remark",
+        "value": "100",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "title": "Total rooms available for examination",
+    "key": "total_exam_rooms",
+    "value": 480,
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Total seating capacity of candidates",
+    "key": "total_seating_capacity",
+    "value": 480,
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Allocated Capacity",
+    "key": "allocated_capacity",
+    "value": null,
+    "isVerified": null,
+    "subFields": [
+      {
+        "label": "@24",
+        "value": "2",
+        "type": "number"
+      },
+      {
+        "label": "@48",
+        "value": "2",
+        "type": "number"
+      },
+      {
+        "label": "@72",
+        "value": "1",
+        "type": "number"
+      }
+    ]
+  },
+  {
+    "title": "Distance of examination center & select the reference location from the  available three options",
+    "key": "distance_to_treasury",
+    "value": null,
+    "isVerified": null,
+    "subFields": [
+      {
+        "label": "Distance (in Km)",
+        "value": "9",
+        "type": "number"
+      },
+      {
+        "label": "available three options",
+        "value": "railway_station",
+        "type": "radio"
+      }
+    ]
+  },
+  {
+    "title": "Total number of teachers/personnel under the institute for inspection",
+    "key": "total_teachers",
+    "value": 42,
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Experience of examinations conducted in the last 3 years (UP Police or other examinations)",
+    "key": "exam_experience",
+    "value": "YES",
+    "isVerified": false,
+    "subFields": [
+      {
+        "label": "Remark",
+        "value": "12",
+        "type": "text"
+      }
+    ]
+  },
+  {
+    "title": "Is the examination center within the population of the city (Y/N)",
+    "key": "center_within_city",
+    "value": "YES",
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Condition of road transport means to reach the examination center",
+    "key": "transport_condition",
+    "value": null,
+    "isVerified": null,
+    "subFields": [
+      {
+        "label": "Condition",
+        "value": "average",
+        "type": "radio"
+      }
+    ]
+  },
+  {
+    "title": "Situation of examination center Building/Boundary Wall/Drinking Water/toilet etc.",
+    "key": "center_condition",
+    "value": null,
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Status of furniture and electricity devices (electricity, fan, generator) etc. at the examination center",
+    "key": "furniture_and_devices",
+    "value": null,
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "Active Number of CCTV cameras",
+    "key": "active_cctvs",
+    "value": 15,
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "If exam center has been debarred earlier or any other adverse information exists",
+    "key": "no_adverse_effect",
+    "value": "",
+    "isVerified": true,
+    "subFields": []
+  },
+  {
+    "title": "",
+    "key": "extra_remark",
+    "value": null,
+    "isVerified": null,
+    "subFields": [
+      {
+        "label": "Extra Remark",
+        "value": "",
+        "type": "longtext"
+      },
+      {
+        "label": "Extra Images",
+        "value": "",
+        "type": "image"
+      }
+    ]
+  }
+]

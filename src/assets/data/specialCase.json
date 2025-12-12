@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Representation Case, if any",
+    "data": [
+      {
+        "id": 1,
+        "title": "Subject of Representation",
+        "key": "responseData.representation.subject",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Decision/ Opinion of Nodal Officer/ Appeal Officer",
+        "key": "responseData.representation.decision",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Signature of Nodal Officer/ Appeal Officer",
+        "key": "responseData.representation.nodalOfficerSignature",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      },
+      {
+        "id": 4,
+        "title": "Candidate 's Signature",
+        "key": "responseData.representation.candidateSignature",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      }
+    ]
+  },
+  {
+    "title": "Category Change Required, if YES",
+    "data": [
+      {
+        "id": 1,
+        "title": "Old Category",
+        "key": "responseData.categoryChange.oldCategory",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "New Category (provisional)",
+        "key": "responseData.categoryChange.newCategory",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Signature of DV/PST Board Members",
+        "key": "responseData.categoryChange.boardSignature",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      },
+      {
+        "id": 4,
+        "title": "Decision/ Opinion of Nodal Officer/ Appeal Officer with signature",
+        "key": "responseData.categoryChange.nodalDecisionSignature",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      }
+    ]
+  }
+]

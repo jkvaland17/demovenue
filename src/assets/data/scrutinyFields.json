@@ -1,0 +1,234 @@
+{
+  "scrutinyAccordianItem": [
+    {
+      "title": "Identity पहचान ",
+      "data": [
+        {
+          "id": 1,
+          "title": "Photographs",
+          "key": "applicationDetails.photograph",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA",
+          "dataType": "image"
+        },
+        {
+          "id": 2,
+          "title": "Signatures",
+          "key": "applicationDetails.signature",
+          "status": "Invalid",
+          "remark": "",
+          "value": "NA",
+          "dataType": "image"
+        }
+      ]
+    },
+    {
+      "title": "Personal Details व्यक्तिगत विवरण",
+      "data": [
+        {
+          "id": 1,
+          "title": "Registration number",
+          "key": "XXXXX",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 2,
+          "title": "Full name",
+          "key": "applicationDetails.personalDetails.fullName",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 3,
+          "title": "Gender",
+          "key": "applicationDetails.personalDetails.gender",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 4,
+          "title": "Date of Birth",
+          "key": "applicationDetails.personalDetails.dateOfBirth",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA",
+          "dataType": "date"
+        },
+        {
+          "id": 5,
+          "title": "Father’s name",
+          "key": "applicationDetails.personalDetails.fatherName",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 6,
+          "title": "Mother’s name",
+          "key": "applicationDetails.personalDetails.motherName",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 7,
+          "title": "Marital status",
+          "key": "applicationDetails.personalDetails.maritalStatus",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        }
+      ]
+    },
+    {
+      "title": "Address Details पता विवरण",
+      "data": [
+        {
+          "id": 12,
+          "title": "State",
+          "key": "applicationDetails.addressDetails.permanentAddress.state",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 13,
+          "title": "City",
+          "key": "applicationDetails.addressDetails.permanentAddress.district",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        }
+      ]
+    },
+    {
+      "title": "High School/10th हाई स्कूल/10वीं",
+      "data": [
+        {
+          "id": 1,
+          "title": "Board name",
+          "key": "applicationDetails.educationDetails.tenthQualification.institutionName",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 2,
+          "title": "Subject",
+          "key": "applicationDetails.educationDetails.tenthQualification.subjects",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 3,
+          "title": "Year of passing",
+          "key": "applicationDetails.educationDetails.tenthQualification.yearOfPassing",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 4,
+          "title": "Marks in percentage/ CGPA",
+          "key": "applicationDetails.educationDetails.tenthQualification.percentage",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 5,
+          "title": "Roll number",
+          "key": "applicationDetails.educationDetails.tenthQualification.rollNumber",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 6,
+          "title": "Certificate number",
+          "key": "applicationDetails.educationDetails.tenthQualification.certificateNumber",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 7,
+          "title": "10th / High School / Other Equivalent Mark-Sheet Certificate",
+          "key": "applicationDetails.educationDetails.tenthQualification.certificateFile",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate/12th इंटरमीडिएट/12वीं",
+      "data": [
+        {
+          "id": 1,
+          "title": "Board name",
+          "key": "applicationDetails.educationDetails.intermediateQualification.institutionName",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 2,
+          "title": "Subject",
+          "key": "applicationDetails.educationDetails.intermediateQualification.subjects",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 3,
+          "title": "Year of passing",
+          "key": "applicationDetails.educationDetails.intermediateQualification.yearOfPassing",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 4,
+          "title": "Marks in percentage/ CGPA",
+          "key": "applicationDetails.educationDetails.intermediateQualification.percentage",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 5,
+          "title": "Roll number",
+          "key": "applicationDetails.educationDetails.intermediateQualification.rollNumber",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 6,
+          "title": "Certificate number",
+          "key": "applicationDetails.educationDetails.intermediateQualification.certificateNumber",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA"
+        },
+        {
+          "id": 7,
+          "title": "12th / Intermediate / Other Equivalent Mark-Sheet Certificate",
+          "key": "applicationDetails.educationDetails.intermediateQualification.certificateFile",
+          "status": "Valid",
+          "remark": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    }
+  ]
+}

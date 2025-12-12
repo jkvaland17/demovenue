@@ -1,0 +1,191 @@
+[
+  {
+    "section": "Vendor Details",
+    "fields": [
+      {
+        "label": "Vendor Name",
+        "key": "vendorName",
+        "type": "text",
+        "icon": "person",
+        "isRequired": true
+      },
+      {
+        "label": "Official Address",
+        "key": "officialAddress",
+        "type": "text",
+        "icon": "map",
+        "isRequired": false
+      },
+      {
+        "label": "Official Email",
+        "key": "officialEmail",
+        "type": "email",
+        "icon": "mail",
+        "isRequired": true
+      },
+      {
+        "label": "Official Contact Number",
+        "key": "OfficialContactNumber",
+        "type": "tel",
+        "icon": "call",
+        "isRequired": true
+      },
+      {
+        "label": "GSTN Number",
+        "key": "gstnNumber",
+        "type": "text",
+        "icon": "credit_card",
+        "isRequired": false
+      },
+      {
+        "label": "GST Certificate",
+        "key": "gstCertificate",
+        "type": "file",
+        "icon": "upload_file",
+        "isRequired": false
+      },
+      {
+        "label": "PAN Number",
+        "key": "panNumber",
+        "type": "text",
+        "icon": "credit_card",
+        "isRequired": false
+      },
+      {
+        "label": "PAN Card",
+        "key": "panCard",
+        "type": "file",
+        "icon": "upload_file",
+        "isRequired": false
+      },
+      {
+        "label": "HSN/SAC Code",
+        "key": "hsnSacCode",
+        "type": "text",
+        "icon": "credit_card",
+        "isRequired": false
+      },
+      {
+        "label": "MSME Certificate",
+        "key": "msmeCertificate",
+        "type": "file",
+        "icon": "upload_file",
+        "isRequired": false
+      },
+      {
+        "label": "Business Registration Certificate",
+        "key": "businessRegistrationCertificate",
+        "type": "file",
+        "icon": "upload_file",
+        "isRequired": false
+      }
+    ]
+  },
+  {
+    "section": "Vendor Bank Account Details",
+    "fields": [
+      {
+        "label": "Cheque in favour",
+        "key": "chequeInFavour",
+        "type": "text",
+        "icon": "payments",
+        "isRequired": false
+      },
+      {
+        "label": "Bank Name",
+        "key": "bankName",
+        "type": "text",
+        "icon": "account_balance",
+        "isRequired": false
+      },
+      {
+        "label": "Bank Account No.",
+        "key": "bankAccountNo",
+        "type": "number",
+        "icon": "account_balance",
+        "isRequired": false
+      },
+      {
+        "label": "IFSC Code",
+        "key": "ifscCode",
+        "type": "text",
+        "icon": "account_balance",
+        "isRequired": false
+      },
+      {
+        "label": "Branch Name",
+        "key": "branchName",
+        "type": "text",
+        "icon": "account_balance",
+        "isRequired": false
+      },
+      {
+        "label": "ITR Acknowledgement No. 1",
+        "key": "itrAcknowledgementNo1",
+        "type": "text",
+        "icon": "account_balance",
+        "isRequired": false
+      },
+      {
+        "label": "Financial Year",
+        "key": "financialYear",
+        "type": "select",
+        "options": [
+          { "label": "2023-2024", "value": "2023-2024" },
+          { "label": "2024-2025", "value": "2024-2025" }
+        ],
+        "isRequired": false
+      },
+      {
+        "label": "Date of Filling",
+        "key": "dateOfFiling",
+        "type": "date",
+        "isRequired": false
+      }
+    ]
+  },
+  {
+    "section": "Authorized Person Details",
+    "fields": [
+      {
+        "label": "Vendor's Authorized Person Full name",
+        "key": "vendorAuthorityFullName",
+        "type": "text",
+        "icon": "person",
+        "isRequired": true
+      },
+      {
+        "label": "Authorized Person's ID",
+        "key": "authorityPersonID",
+        "type": "select",
+        "options": [
+          { "label": "Aadhar", "value": "aadhar" },
+          { "label": "Passport", "value": "passport" },
+          { "label": "Driving License", "value": "driving_license" }
+        ],
+        "isRequired": false
+      },
+      {
+        "label": "Authorized Person's ID No.",
+        "key": "authorityPersonIDNo",
+        "type": "text",
+        "icon": "id_card",
+        "isRequired": false
+      },
+      {
+        "label": "Contact number of Authorized Person",
+        "key": "contactNumberOfAuthorityPersonName",
+        "type": "tel",
+        "icon": "call",
+        "isRequired": true
+      },
+      {
+        "label": "Email Address of Authorized Person",
+        "key": "emailAddressOfAuthorityPersonName",
+        "type": "email",
+        "icon": "mail",
+        "isRequired": true
+      }
+    ]
+  }
+]

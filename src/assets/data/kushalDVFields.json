@@ -1,0 +1,360 @@
+[
+  {
+    "title": "Identity Documents पहचान दस्तावेज़",
+    "data": [
+      {
+        "id": 1,
+        "title": "Photographs",
+        "key": "documetData.photograph",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "photograph"
+      },
+      {
+        "id": 2,
+        "title": "Signatures",
+        "key": "documetData.signature",
+        "status": "Invalid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "signature"
+      }
+    ]
+  },
+  {
+    "title": "Personal Details व्यक्तिगत विवरण",
+    "data": [
+      {
+        "id": 1,
+        "title": "Registration number",
+        "key": "XXXXX",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Full name",
+        "key": "resposeData.personalDetails.fullName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Gender",
+        "key": "resposeData.personalDetails.gender",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Date of Birth",
+        "key": "resposeData.personalDetails.dateOfBirth",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "date"
+      },
+      {
+        "id": 5,
+        "title": "Father’s name",
+        "key": "resposeData.personalDetails.fatherName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "Mother’s name",
+        "key": "resposeData.personalDetails.motherName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "Marital status",
+        "key": "resposeData.personalDetails.maritalStatus",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 8,
+        "title": "Email",
+        "key": "userId.email",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 9,
+        "title": "Mobile number",
+        "key": "userId.mobileNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 10,
+        "title": "Aadhaar number",
+        "key": "resposeData.personalDetails.aadhaarNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 11,
+        "title": "Passport number",
+        "key": "",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 12,
+        "title": "Driving License number",
+        "key": "",
+        "status": "Invalid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "Address Details पता विवरण",
+    "data": [
+      {
+        "id": 1,
+        "title": "Nationality",
+        "key": "resposeData.addressDetails.nationality",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Present address line 1",
+        "key": "resposeData.addressDetails.presentAddress.addressLine",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Present address line 2",
+        "key": "resposeData.addressDetails.presentAddress.addressLine2",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Present address line 3",
+        "key": "resposeData.addressDetails.presentAddress.addressLine3",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "Present address pin code",
+        "key": "resposeData.addressDetails.presentAddress.pinCode",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "Present address state",
+        "key": "resposeData.addressDetails.presentAddress.state",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "Present address district",
+        "key": "resposeData.addressDetails.presentAddress.district",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 8,
+        "title": "Permanent address line 1",
+        "key": "resposeData.addressDetails.permanentAddress.addressLine",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 9,
+        "title": "Permanent address line 2",
+        "key": "resposeData.addressDetails.permanentAddress.addressLine2",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 10,
+        "title": "Permanent address line 3",
+        "key": "resposeData.addressDetails.permanentAddress.addressLine3",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 11,
+        "title": "Permanent address pin code",
+        "key": "resposeData.addressDetails.permanentAddress.pinCode",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 12,
+        "title": "Permanent address state",
+        "key": "resposeData.addressDetails.permanentAddress.state",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 13,
+        "title": "Permanent address district",
+        "key": "resposeData.addressDetails.permanentAddress.district",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      }
+    ]
+  },
+  {
+    "title": "High School/10th हाई स्कूल/10वीं",
+    "data": [
+      {
+        "id": 1,
+        "title": "Board name",
+        "key": "resposeData.tenthQualificationDetails.institutionName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Subject",
+        "key": "resposeData.tenthQualificationDetails.subjects",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Year of passing",
+        "key": "resposeData.tenthQualificationDetails.yearOfPassing",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Marks in percentage/ CGPA",
+        "key": "resposeData.tenthQualificationDetails.percentage",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "Roll number",
+        "key": "resposeData.tenthQualificationDetails.rollNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "Certificate number",
+        "key": "resposeData.tenthQualificationDetails.certificateNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "10th / High School / Other Equivalent Mark-Sheet Certificate",
+        "key": "resposeData.tenthQualificationDetails.certificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      }
+    ]
+  },
+  {
+    "title": "Intermediate/12th इंटरमीडिएट/12वीं",
+    "data": [
+      {
+        "id": 1,
+        "title": "Board name",
+        "key": "resposeData.intermediateQualificationDetails.institutionName",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 2,
+        "title": "Subject",
+        "key": "resposeData.intermediateQualificationDetails.subjects",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 3,
+        "title": "Year of passing",
+        "key": "resposeData.intermediateQualificationDetails.yearOfPassing",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 4,
+        "title": "Marks in percentage/ CGPA",
+        "key": "resposeData.intermediateQualificationDetails.percentage",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 5,
+        "title": "Roll number",
+        "key": "resposeData.intermediateQualificationDetails.rollNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 6,
+        "title": "Certificate number",
+        "key": "resposeData.intermediateQualificationDetails.certificateNumber",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA"
+      },
+      {
+        "id": 7,
+        "title": "12th / Intermediate / Other Equivalent Mark-Sheet Certificate",
+        "key": "resposeData.intermediateQualificationDetails.certificateFile",
+        "status": "Valid",
+        "remark": "",
+        "value": "NA",
+        "dataType": "document"
+      }
+    ]
+  }
+]

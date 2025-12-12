@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: #f4f7f9;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 300,
+    "GRAD" 0,
+    "opsz" 24;
+}
+
+/* Upload */
+.custum-file-upload {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #cacaca;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px rgba(0, 0, 0, 0.1);
+}
+
+.custum-file-upload .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .icon svg {
+  height: 80px;
+  fill: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .text span {
+  font-weight: 400;
+  color: rgba(75, 85, 99, 1);
+}
+
+.custum-file-upload input {
+  display: none;
+}
+
+.customSwitch
+  .group[data-selected="true"]
+  .group-data-\[selected\=true\]\:bg-primary {
+  background-color: #e4e4e7 !important;
+}
+
+.customSwitch .bg-white {
+  background-color: #016eec !important;
+}
+
+/* Naveen styles */
+[data-slot="label"] {
+  text-align: left;
+}
+
+/* .material-symbols-rounded {
+  color: rgb(182, 182, 182);
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 300,
+    "GRAD" 0,
+    "opsz" 24;
+} */
+
+.admin_dashboard {
+  .material-symbols-rounded {
+    color: white;
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 300,
+      "GRAD" 0,
+      "opsz" 24;
+  }
+}
+
+.more_btn {
+  border: none !important;
+  min-width: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  .material-symbols-rounded {
+    color: black !important;
+  }
+}
+.send_btn {
+  .material-symbols-rounded {
+    color: white !important;
+  }
+}
+
+.workflow_card_desc {
+  .material-symbols-rounded {
+    color: gray;
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 300,
+      "GRAD" 0,
+      "opsz" 24;
+  }
+}
+
+.sports_table,
+.admitCardTable {
+  ol {
+    list-style-type: decimal !important;
+    margin-left: 1rem;
+  }
+  tr,
+  th,
+  td {
+    border: 1px solid #b5b5b5 !important;
+    text-align: left;
+    padding: 8px;
+    font-weight: 500;
+  }
+  thead {
+    background-color: whitesmoke;
+  }
+}
+
+.promotion-table {
+  tr,
+  th,
+  td {
+    border: 1px solid #b5b5b5 !important;
+    text-align: left;
+    padding: 8px;
+    word-break: break-all;
+  }
+  td {
+    min-width: 150px;
+  }
+  thead {
+    background-color: whitesmoke;
+  }
+}
+
+.itemValue [data-slot="listbox"] li span{
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+}
+
+@media print {
+  .print-container {
+    margin: 20mm; /* You can adjust the margins to your preference */
+  }
+}
+
+/* .customSwitch .bg-default-200 {
+  background-color: blue !important;
+} */

@@ -1,0 +1,74 @@
+name: DEV CICCD
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: prod-agent
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v1
+
+      - name: Set up environment variables
+        run: |
+          echo "NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET_DEV }}" >> .env
+          echo "NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL_DEV }}" >> .env
+          echo "NEXT_PUBLIC_FRONTEND_URL=${{ secrets.NEXT_PUBLIC_FRONTEND_URL_DEV }}" >> .env
+          echo "NEXT_PUBLIC_API_ENDPOINT=${{ secrets.NEXT_PUBLIC_API_ENDPOINT_DEV }}" >> .env
+
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build, tag, and push image to ECR
+        env:
+          ECR_REGISTRY: ${{ secrets.ECR_REGISTRY }}
+          ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
+        run: |
+          docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$GITHUB_RUN_ID .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$GITHUB_RUN_ID
+          docker image rm $ECR_REGISTRY/$ECR_REPOSITORY:$GITHUB_RUN_ID
+          docker logout $ECR_REGISTRY
+  deploy:
+    needs: build
+    runs-on: prod-seap-agent
+    steps:
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Configure kubectl
+        run: |
+          aws eks update-kubeconfig --name ${{ secrets.EKS_CLUSTER_NAME_PROD }} --region ${{ secrets.AWS_REGION }}
+
+      - name: Deploy to EKS using Helm
+        env:
+          ECR_REGISTRY: ${{ secrets.ECR_REGISTRY }}
+          ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GROUP: upprb-admin-dev
+        run: |
+          curl -s -O https://$GH_PAT@raw.githubusercontent.com/tcpdigital8130/platform/main/helm-charts/seap.tar.gz
+          curl -s -O https://$GH_PAT@raw.githubusercontent.com/tcpdigital8130/platform/main/envs/dev/services/upprpb-admin/dev-values.yaml
+          tar -xvzf seap.tar.gz
+          helm upgrade --install $GROUP ./seap \
+            --namespace dev --create-namespace -f ./dev-values.yaml \
+            --set image.repository=$ECR_REGISTRY/$ECR_REPOSITORY \
+            --set image.tag=$GITHUB_RUN_ID
+
+      - name: Clean up kubeconfig
+        run: |
+          rm -f $HOME/.kube/config

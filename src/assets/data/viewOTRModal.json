@@ -1,0 +1,293 @@
+{
+  "accordionItems": [
+    {
+      "title": "Personal Details",
+      "data": [
+        {
+          "icon": "person",
+          "title": "Candidate's name",
+          "key": "fullName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Gender",
+          "key": "gender",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Date of Birth",
+          "key": "dateOfBirth",
+          "id": "",
+          "value": "NA",
+          "dataType": "date"
+        },
+        {
+          "icon": "person",
+          "title": "Father's name",
+          "key": "fatherName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Mother's name",
+          "key": "motherName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Marital Status",
+          "key": "maritalStatus",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Are you domicile of Uttar Pradesh? क्या आप उत्तर प्रदेश के मूल निवासी हैं?",
+          "key": "domicile",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "circle",
+          "title": "Reservation Category",
+          "key": "reservationCategory",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "mail",
+          "title": "Email",
+          "key": "userId.email",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "call",
+          "title": "Mobile number",
+          "key": "userId.mobileNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Aadhaar number",
+          "key": "aadhaarNumber",
+          "id": "",
+          "value": "NA"
+        }
+      ]
+    },
+    {
+      "title": "High School/10th",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board name",
+          "key": "educationDetails.tenthQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "educationDetails.tenthQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "educationDetails.tenthQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "educationDetails.tenthQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "educationDetails.tenthQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "10TH / High School / Other Equivalent Mark-Sheet Certificate",
+          "key": "educationDetails.tenthQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate/12th",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board name",
+          "key": "educationDetails.intermediateQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "educationDetails.intermediateQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "educationDetails.intermediateQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "educationDetails.intermediateQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "educationDetails.intermediateQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "12TH / HSC / Other Equivalent Mark-sheet Certificate",
+          "key": "educationDetails.intermediateQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Graduation",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board/ University/ Institution name",
+          "key": "educationDetails.graduationQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "book_2",
+          "title": "Field of study",
+          "key": "educationDetails.graduationQualification.subjects",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "educationDetails.graduationQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "educationDetails.graduationQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "educationDetails.graduationQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "educationDetails.graduationQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "Graduation Certificate",
+          "key": "educationDetails.graduationQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Post Graduation",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board/ University/ Institution name",
+          "key": "educationDetails.postGraduationQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "book_2",
+          "title": "Field of study",
+          "key": "educationDetails.postGraduationQualification.subjects",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "educationDetails.postGraduationQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "educationDetails.postGraduationQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "educationDetails.postGraduationQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "educationDetails.postGraduationQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "Post Graduation Certificate",
+          "key": "educationDetails.postGraduationQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    }
+  ]
+}

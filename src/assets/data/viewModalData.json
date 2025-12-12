@@ -1,0 +1,698 @@
+{
+  "accordionItems": [
+    {
+      "title": "Personal Details",
+      "data": [
+        {
+          "icon": "tag",
+          "title": "Advertisement/Notification number",
+          "key": "XXXXX",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "apartment",
+          "title": "Department/Post name",
+          "key": "XXXXX",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Preference for Civil Police/PAC",
+          "key": "XXXXX",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Candidate's name",
+          "key": "applicationDetails.personalDetails.fullName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Gender",
+          "key": "applicationDetails.personalDetails.gender",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Date of Birth",
+          "key": "applicationDetails.personalDetails.dateOfBirth",
+          "id": "",
+          "value": "NA",
+          "dataType": "date"
+        },
+        {
+          "icon": "tag",
+          "title": "Age (As on 1 July 2024)",
+          "key": "22",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Father's name",
+          "key": "applicationDetails.personalDetails.fatherName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Mother's name",
+          "key": "applicationDetails.personalDetails.motherName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Marital Status",
+          "key": "applicationDetails.personalDetails.maritalStatus",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Are you domicile of Uttar Pradesh?",
+          "key": "Yes",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "circle",
+          "title": "Reservation Category",
+          "key": "applicationDetails.personalDetails.reservationCategory",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "mail",
+          "title": "Email",
+          "key": "userId.email",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "call",
+          "title": "Mobile number",
+          "key": "userId.mobileNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "person",
+          "title": "Aadhaar number",
+          "key": "applicationDetails.personalDetails.aadhaarNumber",
+          "id": "",
+          "value": "NA"
+        }
+      ]
+    },
+    {
+      "title": "Present Address",
+      "data": [
+        {
+          "icon": "home",
+          "title": "Address Line 1",
+          "key": "applicationDetails.addressDetails.presentAddress.addressLine",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "home",
+          "title": "Address Line 2",
+          "key": "applicationDetails.addressDetails.presentAddress.addressLine2",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "home",
+          "title": "Address Line 3",
+          "key": "applicationDetails.addressDetails.presentAddress.addressLine3",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "location_on",
+          "title": "Pincode",
+          "key": "applicationDetails.addressDetails.presentAddress.pinCode",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "map",
+          "title": "State",
+          "key": "applicationDetails.addressDetails.presentAddress.state",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "map",
+          "title": "District",
+          "key": "applicationDetails.addressDetails.presentAddress.district",
+          "id": "",
+          "value": "NA"
+        }
+      ]
+    },
+    {
+      "title": "Permanenet Address",
+      "data": [
+        {
+          "id": 1,
+          "title": "Nationality",
+          "key": "Indian",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 2,
+          "title": "Present address line 1",
+          "key": "applicationDetails.addressDetails.presentAddress.addressLine",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 3,
+          "title": "Present address line 2",
+          "key": "applicationDetails.addressDetails.presentAddress.addressLine2",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 4,
+          "title": "Present address line 3",
+          "key": "applicationDetails.addressDetails.presentAddress.addressLine3",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 5,
+          "title": "Present address pin code",
+          "key": "applicationDetails.addressDetails.presentAddress.pinCode",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 6,
+          "title": "Present address state",
+          "key": "applicationDetails.addressDetails.presentAddress.state",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 7,
+          "title": "Present address district",
+          "key": "applicationDetails.addressDetails.presentAddress.district",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 8,
+          "title": "Permanent address line 1",
+          "key": "applicationDetails.addressDetails.permanentAddress.addressLine",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 9,
+          "title": "Permanent address line 2",
+          "key": "applicationDetails.addressDetails.permanentAddress.addressLine2",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 10,
+          "title": "Permanent address line 3",
+          "key": "applicationDetails.addressDetails.permanentAddress.addressLine3",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 11,
+          "title": "Permanent address pin code",
+          "key": "applicationDetails.addressDetails.permanentAddress.pinCode",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 12,
+          "title": "Permanent address state",
+          "key": "applicationDetails.addressDetails.permanentAddress.state",
+          "status": "Valid",
+          "remark": ""
+        },
+        {
+          "id": 13,
+          "title": "Permanent address district",
+          "key": "applicationDetails.addressDetails.permanentAddress.district",
+          "status": "Valid",
+          "remark": ""
+        }
+      ]
+    },
+    {
+      "title": "Other Details",
+      "data": [
+        {
+          "icon": "home",
+          "title": "Are you domicile of Uttar Pradesh?",
+          "key": "applicationDetails.kushalOtherDetails.domicile",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "apartment",
+          "title": "Name of Domicile certificate issuing UP state authority",
+          "key": "applicationDetails.kushalOtherDetails.nameOfDomicileIssuingAuthorityUP",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Date of issuing Domicile certificate",
+          "key": "applicationDetails.kushalOtherDetails.dateOfIssuingDomicileCertificate",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Domicile certificate serial number",
+          "key": "applicationDetails.kushalOtherDetails.domicileCertificateSerialNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Domicile certificate application number",
+          "key": "applicationDetails.kushalOtherDetails.domicileCertificateApplicationNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "home",
+          "title": "Domicile Certificate",
+          "key": "applicationDetails.kushalOtherDetails.domicileCertificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        },
+        {
+          "icon": "circle",
+          "title": "Reservation category",
+          "key": "applicationDetails.kushalOtherDetails.reservationCategory",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "apartment",
+          "title": "Name of Reservation category certificate issuing authority",
+          "key": "applicationDetails.kushalOtherDetails.nameOfReservationCategoryIssuingAuthorityUP",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Date of issuing Reservation Category certificate",
+          "key": "applicationDetails.kushalOtherDetails.dateOfIssuingReservationCategoryCertificate",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Reservation category certificate serial number",
+          "key": "applicationDetails.kushalOtherDetails.reservationCategoryCertificateSerialNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Reservation category certificate application number",
+          "key": "applicationDetails.kushalOtherDetails.reservationCategoryApplicationNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "circle",
+          "title": "Category certificate or EWS certificate as applicable",
+          "key": "applicationDetails.kushalOtherDetails.reservationCategoryCertificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "High School/10th",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board name",
+          "key": "applicationDetails.educationDetails.tenthQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "book_2",
+          "title": "Subject",
+          "key": "applicationDetails.educationDetails.tenthQualification.subjects",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "applicationDetails.educationDetails.tenthQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "applicationDetails.educationDetails.tenthQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "applicationDetails.educationDetails.tenthQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "applicationDetails.educationDetails.tenthQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "10TH / High School / Other Equivalent Mark-Sheet Certificate",
+          "key": "applicationDetails.educationDetails.tenthQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Intermediate/12th",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board name",
+          "key": "applicationDetails.educationDetails.intermediateQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "book_2",
+          "title": "Subject",
+          "key": "applicationDetails.educationDetails.intermediateQualification.subjects",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "applicationDetails.educationDetails.intermediateQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "applicationDetails.educationDetails.intermediateQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "applicationDetails.educationDetails.intermediateQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "applicationDetails.educationDetails.intermediateQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "10TH / High School / Other Equivalent Mark-Sheet Certificate",
+          "key": "applicationDetails.educationDetails.intermediateQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Graduation",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board/ University/ Institution name",
+          "key": "applicationDetails.educationDetails.graduationQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "book_2",
+          "title": "Field of study",
+          "key": "applicationDetails.educationDetails.graduationQualification.subjects",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "applicationDetails.educationDetails.graduationQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "applicationDetails.educationDetails.graduationQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "applicationDetails.educationDetails.graduationQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "applicationDetails.educationDetails.graduationQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "Graduation Certificate",
+          "key": "applicationDetails.educationDetails.graduationQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Post Graduation",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Board/ University/ Institution name",
+          "key": "applicationDetails.educationDetails.postGraduationQualification.institutionName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "book_2",
+          "title": "Field of study",
+          "key": "applicationDetails.educationDetails.postGraduationQualification.subjects",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Year of Passing",
+          "key": "applicationDetails.educationDetails.postGraduationQualification.yearOfPassing",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "percent",
+          "title": "Marks in percentage/ CGPA",
+          "key": "applicationDetails.educationDetails.postGraduationQualification.percentage",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Roll number",
+          "key": "applicationDetails.educationDetails.postGraduationQualification.rollNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Certificate number",
+          "key": "applicationDetails.educationDetails.postGraduationQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "Post Graduation Certificate",
+          "key": "applicationDetails.educationDetails.postGraduationQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Preferential Educational Qualification",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Have you obtained PGDCA (Post Graduate Diploma in Computer Applications) or equivalent recognised by Government?",
+          "key": "applicationDetails.educationalDetails.preferentialEducationQualification.pgdCaCertificate",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "book_2",
+          "title": "PGDCA certificate name",
+          "key": "applicationDetails.educationalDetails.preferentialEducationQualification.certificateName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "PGDCA certificate number",
+          "key": "applicationDetails.educationalDetails.preferentialEducationQualification.certificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "PGDCA Certificate",
+          "key": "applicationDetails.educationalDetails.preferentialEducationQualification.certificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "O-level certificate in computer from DOEACC or NIELIT Society",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Have you obtained O-level certificate in computer from DOEACC or NIELIT Society?",
+          "key": "applicationDetails.educationalDetails.oLevelQualification.isOLevelCertificate",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "O-level certificate number",
+          "key": "applicationDetails.educationalDetails.oLevelQualification.oLevelCertificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "O level certificate in computer from DOEACC or NIELIT Society / DOEACC or NIELIT",
+          "key": "applicationDetails.educationalDetails.oLevelQualification.oLevelCertificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "\"B\" certificate of National CADET CORPS",
+      "data": [
+        {
+          "icon": "school",
+          "title": "Have you obtained \"B\" certificate of National CADET CORPS?",
+          "key": "applicationDetails.educationalDetails.bCertificate.isBCertificate",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "\"B\" certificate name",
+          "key": "applicationDetails.educationalDetails.bCertificate.bAuthroityName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "\"B\" certificate number",
+          "key": "applicationDetails.educationalDetails.bCertificate.bCertificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "school",
+          "title": "\"B\" certificate",
+          "key": "applicationDetails.educationalDetails.bCertificate.bCertificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    },
+    {
+      "title": "Served in the Territorial army for a minimum period of 2 years",
+      "data": [
+        {
+          "icon": "military_tech",
+          "title": "Have you served in the Territorial army for a minimum period of 2 years?",
+          "key": "applicationDetails.educationalDetails.territorialArmy.isServerInTerritorialArmy",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "military_tech",
+          "title": "Territorial army certificate name",
+          "key": "applicationDetails.educationalDetails.territorialArmy.territorialArmyLevelAuthroityName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "Territorial army certificate number",
+          "key": "applicationDetails.educationalDetails.territorialArmy.territorialArmyCertificateNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "military_tech",
+          "title": "Territorial army Certificate",
+          "key": "applicationDetails.educationalDetails.territorialArmy.territorialArmyCertificateFile",
+          "id": "",
+          "value": "NA",
+          "dataType": "document"
+        }
+      ]
+    }
+  ]
+}

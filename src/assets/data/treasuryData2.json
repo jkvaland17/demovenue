@@ -1,0 +1,314 @@
+{
+  "data": {
+    "column": [
+      {
+        "key": "field",
+        "title": "Fields"
+      },
+      {
+        "key": "cto_1",
+        "title": "Surendra Maran (cto_1)"
+      },
+      {
+        "key": "no_1",
+        "title": "Surendra Maran (no_1)"
+      },
+      {
+        "key": "Ram_11",
+        "title": "Ram (Ram_11)"
+      },
+      {
+        "key": "no_2",
+        "title": "Nodal Officer (no_2)"
+      },
+      {
+        "key": "status",
+        "title": "Status"
+      }
+    ],
+    "table": [
+      {
+        "Room": 1,
+        "tableData": [
+          {
+            "_id": "a46f4e9c",
+            "field": "Length in feet",
+            "cto_1": "3",
+            "no_1": "2",
+            "Ram_11": "5",
+            "no_2": "4",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "12195942",
+            "field": "Width in feet",
+            "cto_1": "2",
+            "no_1": "5",
+            "Ram_11": "5",
+            "no_2": "4",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "e0fa5e2e",
+            "field": "Area in sq/feet",
+            "cto_1": "6",
+            "no_1": "10",
+            "Ram_11": "25",
+            "no_2": "16",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "e3199b3a",
+            "field": "Doors",
+            "cto_1": "1",
+            "no_1": "5",
+            "Ram_11": "5",
+            "no_2": "4",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "eeef2bee",
+            "field": "Windows",
+            "cto_1": "4",
+            "no_1": "3",
+            "Ram_11": "4",
+            "no_2": "5",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "71a917fb",
+            "field": "Is CCTV Available",
+            "cto_1": "yes",
+            "no_1": "yes",
+            "Ram_11": "yes",
+            "no_2": "yes",
+            "status": "Matched"
+          },
+          {
+            "_id": "e4020ab8",
+            "field": "Number of CCTV",
+            "cto_1": "3",
+            "no_1": "6",
+            "Ram_11": "20",
+            "no_2": "7",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "e6191323",
+            "field": "Additional Comment",
+            "cto_1": "ok",
+            "no_1": "ok",
+            "Ram_11": "ok",
+            "no_2": "",
+            "status": ""
+          },
+          {
+            "_id": "45a71f8b",
+            "field": "Image of Room",
+            "cto_1": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746040198153_17460401865465521783849785793292.jpg",
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746040198609_17460401895876683732206464077378.jpg"
+            ],
+            "no_1": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746186633747_17461866093125082484206029474646.jpg",
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746186633859_17461866151885828424588463739767.jpg"
+            ],
+            "Ram_11": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746425095342_17464250354915424415744959995043.jpg",
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746425095431_17464250468734019274817743893407.jpg"
+            ],
+            "no_2": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746701463144_17467014492864217549077991058201.jpg"
+            ],
+            "status": ""
+          }
+        ]
+      },
+      {
+        "Room": 2,
+        "tableData": [
+          {
+            "_id": "b7e991a5",
+            "field": "Length in feet",
+            "cto_1": "1",
+            "no_1": "",
+            "Ram_11": "9",
+            "no_2": "5",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "78076495",
+            "field": "Width in feet",
+            "cto_1": "1",
+            "no_1": "",
+            "Ram_11": "9",
+            "no_2": "5",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "27d1f254",
+            "field": "Area in sq/feet",
+            "cto_1": "1",
+            "no_1": "",
+            "Ram_11": "81",
+            "no_2": "25",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "27a97b48",
+            "field": "Doors",
+            "cto_1": "1",
+            "no_1": "",
+            "Ram_11": "8",
+            "no_2": "5",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "7cb52e33",
+            "field": "Windows",
+            "cto_1": "1",
+            "no_1": "",
+            "Ram_11": "6",
+            "no_2": "5",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "e5f59f3c",
+            "field": "Is CCTV Available",
+            "cto_1": "yes",
+            "no_1": "",
+            "Ram_11": "yes",
+            "no_2": "yes",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "cc9ddc60",
+            "field": "Number of CCTV",
+            "cto_1": "1",
+            "no_1": "",
+            "Ram_11": "26",
+            "no_2": "36",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "ef3be476",
+            "field": "Additional Comment",
+            "cto_1": "68185b03e74e0610382556a7",
+            "no_1": "",
+            "Ram_11": "ok",
+            "no_2": "ok",
+            "status": ""
+          },
+          {
+            "_id": "827ecac5",
+            "field": "Image of Room",
+            "cto_1": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746427617104_17464276056048958477645880984842.jpg"
+            ],
+            "no_1": [],
+            "Ram_11": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746425133967_17464250354915424415744959995043.jpg",
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746425134108_17464250468734019274817743893407.jpg"
+            ],
+            "no_2": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746701498258_17467014890208372023517745222811.jpg"
+            ],
+            "status": ""
+          }
+        ]
+      },
+      {
+        "Room": 3,
+        "tableData": [
+          {
+            "_id": "4cbc9ec2",
+            "field": "Length in feet",
+            "cto_1": "2",
+            "no_1": "",
+            "Ram_11": "33",
+            "no_2": "",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "0c832b2f",
+            "field": "Width in feet",
+            "cto_1": "2",
+            "no_1": "",
+            "Ram_11": "3",
+            "no_2": "",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "ea05589d",
+            "field": "Area in sq/feet",
+            "cto_1": "4",
+            "no_1": "",
+            "Ram_11": "99",
+            "no_2": "",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "049249de",
+            "field": "Doors",
+            "cto_1": "2",
+            "no_1": "",
+            "Ram_11": "5",
+            "no_2": "",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "709d3fbd",
+            "field": "Windows",
+            "cto_1": "3",
+            "no_1": "",
+            "Ram_11": "8",
+            "no_2": "",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "1b9e3486",
+            "field": "Is CCTV Available",
+            "cto_1": "yes",
+            "no_1": "",
+            "Ram_11": "yes",
+            "no_2": "",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "05d5c6d2",
+            "field": "Number of CCTV",
+            "cto_1": "2",
+            "no_1": "",
+            "Ram_11": "50",
+            "no_2": "",
+            "status": "Not Matched"
+          },
+          {
+            "_id": "d45aa54a",
+            "field": "Additional Comment",
+            "cto_1": "opk",
+            "no_1": "",
+            "Ram_11": "ok",
+            "no_2": "",
+            "status": ""
+          },
+          {
+            "_id": "1f0d29d1",
+            "field": "Image of Room",
+            "cto_1": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746427668747_1746427658999586757152021031085.jpg",
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746427668815_17464276614616232949671881037055.jpg"
+            ],
+            "no_1": [],
+            "Ram_11": [
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746425567728_17464254861782600561745422532090.jpg",
+              "https://seap-backend.s3.ap-south-1.amazonaws.com/images/1746425567883_17464254929338988053235026985526.jpg"
+            ],
+            "no_2": [],
+            "status": ""
+          }
+        ]
+      }
+    ]
+  }
+}

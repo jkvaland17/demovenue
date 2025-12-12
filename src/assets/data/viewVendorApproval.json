@@ -1,0 +1,160 @@
+{
+  "accordionItems": [
+    {
+      "title": "Vendor Details",
+      "data": [
+        {
+          "icon": "person",
+          "title": "Vendor Name",
+          "key": "vendorName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "location_on",
+          "title": "Official Address",
+          "key": "officialAddress",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "mail",
+          "title": "Official Email",
+          "key": "officialEmail",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "call",
+          "title": "Official Contact Number",
+          "key": "officialContactNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "GSTN No.",
+          "key": "gstnNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "credit_card",
+          "title": "PAN",
+          "key": "panNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "tag",
+          "title": "HSN/SAC Code",
+          "key": "hsnSacCode",
+          "id": "",
+          "value": "NA"
+        }
+      ]
+    },
+    {
+      "title": "Vendor Bank Account Details",
+      "data": [
+        {
+          "icon": "payment",
+          "title": "Cheque in favour",
+          "key": "bankDetails.chequeInFavour",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "account_balance",
+          "title": "Bank Name",
+          "key": "bankDetails.bankName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "account_balance",
+          "title": "Bank Account No.",
+          "key": "bankDetails.bankAccountNo",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "account_balance",
+          "title": "IFSC Code",
+          "key": "bankDetails.ifscCode",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "account_balance",
+          "title": "Branch Name",
+          "key": "bankDetails.branchName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "account_balance",
+          "title": "ITR Acknowledgement No. 1",
+          "key": "bankDetails.itrAcknowledgementNo1",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Financial Year",
+          "key": "bankDetails.financialYear",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "calendar_today",
+          "title": "Date of Filling",
+          "key": "bankDetails.dateOfFiling",
+          "id": "",
+          "value": "NA",
+          "dataType": "date"
+        }
+      ]
+    },
+    {
+      "title": "Authority Person Details",
+      "data": [
+        {
+          "icon": "person",
+          "title": "Vendor's Authority Person Full name",
+          "key": "authorityPerson.fullName",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "id_card",
+          "title": "Authority Person's ID",
+          "key": "authorityPerson.idDocument",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "id_card",
+          "title": "Authority Person's ID no.",
+          "key": "authorityPerson.idNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "call",
+          "title": "Contact number of Authority Person name",
+          "key": "authorityPerson.contactNumber",
+          "id": "",
+          "value": "NA"
+        },
+        {
+          "icon": "mail",
+          "title": "Email Address of Authority Person name",
+          "key": "authorityPerson.email",
+          "id": "",
+          "value": "NA"
+        }
+      ]
+    }
+  ]
+}
