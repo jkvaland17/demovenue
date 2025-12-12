@@ -68,7 +68,10 @@ const Login: React.FC = () => {
         redirect: false,
         callbackUrl: "/superadmin",
       });
+      console.log(data);
+      
       if (data?.status === 200) {
+        router.push("/admin");
         if (typeof window !== "undefined") {
           sessionStorage.setItem("loginStatus", "active");
         }
