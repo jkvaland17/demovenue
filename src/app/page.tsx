@@ -265,7 +265,7 @@ const Login: React.FC = () => {
               Central Electronics Limited
             </h1>
             <h2 className="mt-3 text-center text-lg font-medium md:text-xl">
-              Venue Management System
+              Venue Management System (CEL)
             </h2>
           </div>
         </div>
