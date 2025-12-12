@@ -84,7 +84,8 @@ const Login: React.FC = () => {
       }
     }
   };
-
+  console.log("sessionStatus",sessionStatus);
+  
   const redirection = () => {
     if (sessionStatus === "authenticated") {
       router.push("/admin");
