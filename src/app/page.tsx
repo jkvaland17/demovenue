@@ -66,12 +66,9 @@ const Login: React.FC = () => {
       const data = await signIn("credentials", {
         ...formData,
         redirect: false,
-        callbackUrl: "/admin",
+        callbackUrl: "/superadmin",
       });
-      console.log(data);
-
-      if (data?.ok || data?.status === 200) {
-        router.push(data?.url ?? "/admin");
+      if (data?.status === 200) {
         if (typeof window !== "undefined") {
           sessionStorage.setItem("loginStatus", "active");
         }
@@ -87,17 +84,22 @@ const Login: React.FC = () => {
       }
     }
   };
-  console.log("sessionStatus", sessionStatus);
+
+  const redirection = () => {
+    if (sessionStatus === "authenticated") {
+      router.push("/admin");
+    } else {
+      router.push("/");
+    }
+  };
 
   useEffect(() => {
     getPlatformToken();
   }, []);
 
   useEffect(() => {
-    if (sessionStatus === "authenticated") {
-      router.push("/admin");
-    }
-  }, [sessionStatus, router]);
+    redirection();
+  }, [sessionStatus]);
 
   const handleSendOtp = async (e?: React.FormEvent) => {
     e?.preventDefault();

@@ -67,26 +67,32 @@ const Main: React.FC = (props: any) => {
     location.startsWith(route),
   );
 
-  const isAdminRoot = location === "/admin";
-
   return (
     <>
-      <Sidebar show={menuState} onSidebarToggle={handleSidebarToggle} />
-      <div className={`content ${menuState ? "show" : "hide"}`}>
-        <Navbar onData={handleChildData} />
+      {location !== "/admin" ? (
+        <>
+          <Sidebar show={menuState} onSidebarToggle={handleSidebarToggle} />
+          <div className={`content ${menuState ? "show" : "hide"}`}>
+            <Navbar onData={handleChildData} />
 
-        <div
-          className={`contentSub !mb-0 min-h-[100vh] px-4 ${menuState ? `pt-[100px]` : `pt-[20px]`} mob:px-3`}
-        >
-          <AdvertisementProvider>
-            {!ApproxLocation && <GlobalAdvertisements courseId={courseId} />}
-            {isAdminRoot ? <AdminDashboard userName={userName} /> : props.children}
-          </AdvertisementProvider>
-        </div>
+            <div
+              className={`contentSub !mb-0 min-h-[100vh] px-4 ${menuState ? `pt-[100px]` : `pt-[20px]`} mob:px-3`}
+            >
+              <AdvertisementProvider>
+                {!ApproxLocation && (
+                  <GlobalAdvertisements courseId={courseId} />
+                )}
+                {props.children}
+              </AdvertisementProvider>
+            </div>
 
-        <br />
-        <br />
-      </div>
+            <br />
+            <br />
+          </div>
+        </>
+      ) : (
+        <AdminDashboard userName={userName} />
+      )}
     </>
   );
 };
