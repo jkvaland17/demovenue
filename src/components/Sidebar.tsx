@@ -467,7 +467,7 @@ const Sidebar: React.FC<SidebarProps> = ({ show, onSidebarToggle }) => {
           <Image src={LOGO} alt="Logo" width={50} height={50} />
           <h6 className="logo_text">
             {" "}
-            Central Electronics Limited
+            Alamban
           </h6>
         </div>
 

@@ -262,10 +262,10 @@ const Login: React.FC = () => {
           </div>
           <div>
             <h1 className="text-center text-lg font-medium md:text-xl">
-              Central Electronics Limited
+              Alamban
             </h1>
             <h2 className="mt-3 text-center text-lg font-medium md:text-xl">
-              Venue Management System (CEL)
+              Venue Management System
             </h2>
           </div>
         </div>

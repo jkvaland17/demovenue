@@ -13,8 +13,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const rubik = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: " Central Electronics Limited",
-  description: " Central Electronics Limited",
+  title: " Alamban",
+  description: " Alamban",
 };
 
 export default function RootLayout({
