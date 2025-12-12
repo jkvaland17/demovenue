@@ -254,18 +254,18 @@ const Login: React.FC = () => {
       <div className="mx-auto my-12 w-full overflow-hidden rounded-xl bg-white shadow-sm md:w-[500px] ">
         <div className="mb-6 flex flex-col gap-5 bg-primary-600 !py-5 px-4 text-white md:px-8 md:py-3">
           <div className="mx-auto max-h-[100px] min-h-[100px] min-w-[100px] max-w-[100px]">
-            <Image
+            {/* <Image
               src={LOGO}
               alt="logo"
               className="h-full w-full object-contain"
-            />
+            /> */}
           </div>
           <div>
             <h1 className="text-center text-lg font-medium md:text-xl">
-              Uttar Pradesh Police Recruitment & Promotion Board
+              Demo
             </h1>
             <h2 className="mt-3 text-center text-lg font-medium md:text-xl">
-              Secure Examination & Assessment Portal (SEAP)
+              Demo Secure Examination & Assessment Portal (SEAP)
             </h2>
           </div>
         </div>
