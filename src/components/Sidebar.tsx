@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import LOGO from "@/assets/img/svg/UPPRB_log.svg";
+import LOGO from "@/assets/img/svg/UPPRB_log.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { signOut, useSession } from "next-auth/react";
@@ -464,10 +464,10 @@ const Sidebar: React.FC<SidebarProps> = ({ show, onSidebarToggle }) => {
         </button>
 
         <div className="main-logo">
-          {/* <Image src={LOGO} alt="Logo" width={50} height={50} /> */}
+          <Image src={LOGO} alt="Logo" width={50} height={50} />
           <h6 className="logo_text">
             {" "}
-            Demo
+            Central Electronics Limited
           </h6>
         </div>
 

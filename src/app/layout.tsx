@@ -13,8 +13,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 const rubik = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: " Uttar Pradesh Police Recruitment & Promotion Board",
-  description: " Uttar Pradesh Police Recruitment & Promotion Board",
+  title: " Central Electronics Limited",
+  description: " Central Electronics Limited",
 };
 
 export default function RootLayout({
